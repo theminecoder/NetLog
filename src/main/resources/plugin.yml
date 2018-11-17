@@ -1,4 +1,4 @@
 name: NetworkLogger
-version: ${project.version}
+version: 0.1
 main: me.theminecoder.minecraft.netlog.Netlog
 authors: [theminecoder]
