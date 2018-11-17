@@ -81,7 +81,7 @@ public final class Netlog extends JavaPlugin implements Listener {
 
         this.getLogger().info("Stopped logging " + event.getPlayer().getName() + "('s) packets");
 
-        PacketSession session = packetSessions.get(event.getPlayer());
+        PacketSession session = packetSessions.remove(event.getPlayer());
         if (session != null) {
             session.setStop(new Date());
 
